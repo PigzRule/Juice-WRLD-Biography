@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Amatic+SC:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b24f4b0e98.js" crossorigin="anonymous"></script>
+    <title>Music | Juice WRLD | Portfolio</title>
+</head>
+
+<body>
+    <div>
+        <img class="bg-img" src="images/background-image.jpg"> <!-- IMAGES -->
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark"> <!-- COMPONENT -->
+            <div class="container-fluid">
+                <img src="images/logo.png" width="65" height="65" alt=""> <!-- UTILITIES --> <!-- IMAGES -->
+                <h1 class="navbar-brand" href="#">Juice WRLD</h1> <!-- COMPONENT -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" 
+                    aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"> 
+                    <span class="navbar-toggler-icon"></span> <!-- UTILITIES -->
+                </button> <!-- COMPONENT -->
+                <div class="collapse navbar-collapse" id="navbarColor02"> <!-- COMPONENT -->
+                    <ul class="navbar-nav me-auto"> 
+                        <li class="nav-item">
+                            <a class="nav-link active" href="first-page.html"> <!-- COMPONENT -->
+                                <i class="fas fa-circle-info"></i> Bio <!-- COMPONENT -->
+                                <span class="visually-hidden">(current)</span> <!-- UTILITIES -->
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown"> <!-- COMPONENT -->
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="second-page.html" role="button"
+                                aria-haspopup="true" aria-expanded="false"> <!-- COMPONENT -->
+                                <i class="fa-solid fa-music"></i> Music <!-- COMPONENT -->
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <!-- COMPONENT -->
+                                <div navlink><a class="dropdown-item" href="GBGR.html">Goodbye & Good Riddance</a></div> <!-- COMPONENT -->
+                                <div navlink><a class="dropdown-item" href="DRFL.html">Death Race for Love</a></div> <!-- COMPONENT -->
+                                <div navlink><a class="dropdown-item" href="LND.html">Legends Never Die</a></div> <!-- COMPONENT -->
+                                <div navlink><a class="dropdown-item" href="FD.html">Fighting  Demons</a></div> <!-- COMPONENT -->
+                                <div navlink><a class="dropdown-item" href="second-page.html"> <!-- COMPONENT -->
+                                    <i class="fa-solid fa-arrow-rotate-left"></i> <!-- COMPONENT -->
+                                </a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <form class="d-flex"> <!-- FORM --> <!-- UTILITIES -->
+                    <input class="form-control me-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button> <!-- COMPONENT -->
+                </form> 
+            </div>
+        </nav>
+
+    
+        <div class="ratio ratio-16x9"> 
+            <iframe width="280" height="157.5" src="https://www.youtube.com/embed/1zpSI_AUJd8?si=ynZxVC6Gkf_cbot5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <!-- IFRAME -->
+        </div>
+    </div>
+
+
+</body>
+
+</html>

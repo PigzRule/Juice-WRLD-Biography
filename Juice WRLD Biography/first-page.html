@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Amatic+SC:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b24f4b0e98.js" crossorigin="anonymous"></script>
+    <title>Bio | Juice WRLD | Portfolio</title>
+</head>
+
+<body>
+    <div>
+        <img class="bg-img" src="images/background-image.jpg"> <!-- IMAGES -->
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark"> <!-- COMPONENT -->
+            <div class="container-fluid">
+                <img src="images/logo.png" width="65" height="65" alt=""> <!-- UTILITIES --> <!-- IMAGES -->
+                <h1 class="navbar-brand" href="#">Juice WRLD</h1> <!-- COMPONENT -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" 
+                    aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"> 
+                    <span class="navbar-toggler-icon"></span> <!-- UTILITIES -->
+                </button> <!-- COMPONENT -->
+                <div class="collapse navbar-collapse" id="navbarColor02"> <!-- COMPONENT -->
+                    <ul class="navbar-nav me-auto"> 
+                        <li class="nav-item">
+                            <a class="nav-link active" href="first-page.html"> <!-- COMPONENT -->
+                                <i class="fas fa-circle-info"></i> Bio <!-- COMPONENT -->
+                                <span class="visually-hidden">(current)</span> <!-- UTILITIES -->
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown"> <!-- COMPONENT -->
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="second-page.html" role="button"
+                                aria-haspopup="true" aria-expanded="false"> <!-- COMPONENT -->
+                                <i class="fa-solid fa-music"></i> Music <!-- COMPONENT -->
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <!-- COMPONENT -->
+                                <div navlink><a class="dropdown-item" href="GBGR.html">Goodbye & Good Riddance</a></div> <!-- COMPONENT -->
+                                <div navlink><a class="dropdown-item" href="DRFL.html">Death Race for Love</a></div> <!-- COMPONENT -->
+                                <div navlink><a class="dropdown-item" href="LND.html">Legends Never Die</a></div> <!-- COMPONENT -->
+                                <div navlink><a class="dropdown-item" href="FD.html">Fighting  Demons</a></div> <!-- COMPONENT -->
+                                <div navlink><a class="dropdown-item" href="second-page.html"> <!-- COMPONENT -->
+                                    <i class="fa-solid fa-arrow-rotate-left"></i> <!-- COMPONENT -->
+                                </a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <form class="d-flex"> <!-- FORM --> <!-- UTILITIES -->
+                    <input class="form-control me-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button> <!-- COMPONENT -->
+                </form> 
+            </div>
+        </nav>
+        <!-- Main Page -->
+
+        <div class="container">
+            <div class="row-fluid">
+                <div class="centering text-center"> <!-- UTILITIES -->
+                    <img src="images/bio.png" width="600" height="600"> <!-- UTILITIES --> <!-- IMAGES -->
+                    <p> Jarad Anthony Higgins (December 2, 1998 - December 8, 2019), known professionally as Juice
+                        WRLD (pronounced "juice world"; stylized as Juice WRLD), was an American rapper, singer, and
+                        songwriter. Throughout his career of four years, he was a leading figure in the emo rap and
+                        SoundCloud rap genres which garnered mainstream attention during the mid-to-late 2010s. His
+                        stage name, which he stated represents "taking over the world", was derived from the crime
+                        thriller film Juice (1992).
+                        Higgins began his career as an independent artist in 2015 under the name JuicetheKidd and
+                        signed a recording contract with Grade A Productions and Interscope Records in 2017. He
+                        gained recognition with the diamond-certified single "Lucid Dreams", which peaked at number
+                        two on the US Billboard Hot 100. It was included on his triple platinum debut album Goodbye
+                        & Good Riddance (2018), alongside the singles "All Girls Are the Same", "Lean wit Me",
+                        "Wasted", and "Armed and Dangerous", all of which charted on the Hot 100. He then
+                        collaborated with Future on the mixtape Wrld on Drugs (2018), and released his second album,
+                        Death Race for Love, in 2019; it contained the hit single "Robbery" and became Higgins'
+                        first number one debut on the US Billboard 200.
+                        Higgins died of a drug overdose on December 8, 2019. His first posthumous album, Legends
+                        Never Die (2020), matched chart records for most successful posthumous debut and for most
+                        U.S. top-ten entries from one album, while the single "Come & Go" (with Marshmello) became
+                        Higgins' second song to reach number two on the Hot 100. His second posthumous album,
+                        Fighting Demons, was released in 2021 alongside the documentary film Juice Wrld: Into the
+                        Abyss and contained the US top 20 single "Already Dead".
+                    </p>
+                </div>
+            </div>
+        </div>
+        </img>
+
+        <!-- FORM -->
+        <form action="second-page.html" method="post"> <!-- FORM --> <!-- COMPONENT -->
+            <div class="form text-center"> <!-- UTILITIES -->
+            <label for="form" class="form-label mt-4"><u>Contact Us</u></label> <!-- COMPONENT -->
+            </div> 
+                <div class="form-group">
+                    <label for="exampleInputEmail1" class="form-label mt-4">Email Address:</label> <!-- COMPONENT -->
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="name@example.com" data-ddg-inputtype="identities.emailAddress"
+                        data-ddg-autofill="true"
+                        style="background-size: auto 24px !important; background-position: right center !important; background-repeat: no-repeat !important; background-origin: content-box !important; background-image: url(&quot;chrome-extension://bkdgflcldnnnapblkhphbgpggdiikppg/img/logo-small.svg&quot;) !important; transition: background 0s ease 0s !important;" 
+                        required>
+                    <div class="invalid-feedback">Please provide a valid email address.</div>
+                    <div data-lastpass-icon-root="true"
+                        style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"> 
+                    </div>
+                    <div class="form-select"> <!-- UTILITIES -->
+                        <label for="exampleSelect1" class="form-label mt-4">Add any information that we may have missed...</label> <!-- UTILITIES -->
+                        <select class="form-select" id="exampleSelect1" data-ddg-inputtype="unknown"> <!-- COMPONENT -->
+                            <option>Soundcloud Era</option>
+                            <option>Goodbye & Good Riddance</option>
+                            <option>Death Race For Love</option>
+                            <option>Legends Never Die</option>
+                            <option>Fighting Demons</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-info">
+                        <label for="exampleTextarea" class="form-label mt-4">What information have we missed?</label> <!-- UTILITIES -->
+                        <textarea class="form-control" id="exampleTextarea" rows="6"></textarea> <!-- COMPONENT -->
+                    </div>
+                </div>
+                <input type="submit" value="Submit"> <!-- COMPONENT -->
+            </div>
+        </form>
+
+        <!-- COMPONENT -->
+
+        <!-- UTILITIES -->
+
+        <!-- IFRAME -->
+
+        <!-- COMPONENT -->
+        <!-- IMAGES --> <!-- TABLES --> <!-- FIGURES -->
+
+</body>
+
+</html>

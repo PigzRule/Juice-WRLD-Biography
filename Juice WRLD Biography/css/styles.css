@@ -1,0 +1,163 @@
+body,
+html {
+    height: 100%;
+    /* UTILITIES */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    /* COMPONENTS */
+    color: #000000;
+}
+
+
+/* Global Styles */
+.bg-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    /* COMPONENTS */
+    height: 200vh;
+    width: 100vw;
+    position: fixed;
+    /* UTILITIES */
+    z-index: -1;
+}
+
+.container {
+    height: 100%;
+    display: table;
+    /* UTILITIES */
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.row-fluid {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    /* COMPONENTS */
+}
+
+.centering {
+    font-family: 'Montserrat', sans-serif;
+    float: none;
+    margin: 0 auto;
+    /* UTILITIES */
+}
+
+figure .figure-caption {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    margin-bottom: 20px;
+    /* UTILITIES */
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: #000000;
+    margin-bottom: 10px;
+    /* UTILITIES */
+}
+
+.form-label {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    background-color: white;
+    border: 1px solid #000000;
+}
+
+.form-group {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    background-color: white;
+}
+
+.form {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    background-color: white;
+    font-size: xx-large;
+}
+
+.panel-heading {
+    color: #000000;
+    font-family: 'Amatic SC', cursive;
+}
+
+.panel-default {
+    margin: 20px;
+    /* UTILITIES */
+}
+
+.panel-body {
+    text-align: center;
+}
+
+.panel-img-top {
+    object-fit: cover;
+    /* UTILITIES */
+    max-height: 800px;
+    /* UTILITIES */
+    border: 1px solid #000000;
+}
+
+.table {
+    width: 100%;
+}
+
+.table th {
+    font-family: 'Amatic SC', cursive;
+    font-size: x-large;
+    background-color: #470c0c;
+    color: #ffffff;
+    border: 2px solid #000000;
+}
+
+.table td {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #a01818;
+    color: #ffffff;
+    border: 2px solid #000000;
+    text-align: center;
+    /* COMPONENTS */
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #000000;
+    padding: 10px;
+    /* UTILITIES */
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 15px;
+    /* UTILITIES */
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #000000;
+    padding: 20px 0;
+    /* UTILITIES */
+    color: #fff;
+    text-align: center;
+    /* COMPONENTS */
+}
